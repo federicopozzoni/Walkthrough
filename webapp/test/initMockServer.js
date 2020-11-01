@@ -3,9 +3,9 @@ sap.ui.define([
 ], function (mockserver) {
     "use strict";
 
-    // initialise the mock server
+    // initialize the mock server
     mockserver.init();
 
-    // initialise the embedded component o nthe HTML page
-    sap.ui.require(["sap/ui/core/ComponentSupport"])
-})
+    // initialize the embedded component on the HTML page
+    sap.ui.require(["sap/ui/core/ComponentSupport"]);
+});

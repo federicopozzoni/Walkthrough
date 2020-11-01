@@ -16,7 +16,8 @@ sap.ui.define([
 		// Arrangements
 		Given.iStartMyUIComponent({
 			componentConfig: {
-				name: "sap.ui.demo.walkthrough"
+				name: "sap.ui.demo.walkthrough",
+				async: true
 			}
 		});
 
@@ -29,4 +30,4 @@ sap.ui.define([
 		// Cleanup
 		Then.iTeardownMyApp();
 	});
-}); 
+});
