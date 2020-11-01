@@ -7,6 +7,15 @@
 		title="{i18n>detailPageTitle}"
 		showNavButton="true"
 		navButtonPress=".onNavBack">
+		<landmarkInfo>
+			<PageAccessibleLandmarkInfo
+				rootRole="Region"
+				rootLabel="{i18n>Detail_rootLabel}"
+				contentRole="Main"
+				contentLabel="{i18n>Detail_contentLabel}"
+				headerRole="Banner"
+				headerLabel="{i18n>Detail_headerLabel}"/>
+		</landmarkInfo>
 		<ObjectHeader
 			responsive="true"
 			fullScreenOptimized="true"
